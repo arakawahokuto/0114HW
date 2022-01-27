@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+#header {
+    height: 100vh;
+    position: relative;
+    background-image: url("./Photo_6553969_DJI_369_jpg_3524690_0_20219813492_photo_original.jpg");
+    background-size: cover;
+}
+
+#header::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#header .top {
+    width: 100%;
+    position: relative;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header h1 {
+    font-size: 40px;
+    margin: 70px 100px;
+}
+
+#header ul {
+    display: flex;
+    margin: auto 50px;
+}
+
+#header li{
+    margin: auto 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.about h2 { 
+    width: 70px;
+    border-bottom: solid 1px black;
+    margin-bottom: 50px;
+}
+
+dt {
+    float: left;
+    margin-bottom: 20px;
+}
+
+dd {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.text h3 {
+    margin-right: 130px;
+}
+
+.hobby {
+    margin: 100px auto;
+}
+
+.hobby h2 {
+    width: 75px;
+    border-bottom: solid 1px black;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.flex img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 100px;
+}
+
+.flex .text {
+    width: 50%;
+    margin: 0 100px;
+}
+
+.dl {
+    display: flex;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.inner {
+    margin: 0 15px;
+}
+
+.inner img {
+    height: 200px;
+    width: 300px;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 237, 240);
+}
